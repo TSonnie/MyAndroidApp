@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_findmatatu"
+                android:icon="@drawable/directions_bus"
+                android:title="Find a Matatu"/>
+        <item
+                android:id="@+id/nav_farechart"
+                android:icon="@drawable/bus_chart"
+                android:title="Fare Chart"/>
+        <item
+                android:id="@+id/nav_payment"
+                android:icon="@drawable/credit_card_black"
+                android:title="Payment"/>
+        <item
+                android:id="@+id/nav_promotion"
+                android:icon="@drawable/star_promotions"
+                android:title="Promotions"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/pan_tool_black"
+                    android:title="Help"/>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/About"
+                    android:title="About"/>
+        </menu>
+    </item>
+
+</menu>
